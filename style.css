@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center the entire row */
+}
+
+.row {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.main-photo {
+    width: 20em;
+    height: 20em;
+    object-fit: cover;
+}
+
+.headphone-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.headphone-price {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.headphone-button {
+    background-color: white;
+    color: black;
+    padding: 0.8em 2.5em;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.headphone-button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
